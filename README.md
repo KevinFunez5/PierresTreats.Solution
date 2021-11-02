@@ -1,5 +1,5 @@
 # Pierre's Sweet & Savory Treats
-By Kevinb Funez
+By Kevin Funez
 
 ## Description
 This MVC web application allows the user to add Treats and Flavors to the database. There exists a many-to-many relationship between Treats and Flavors. This app also includes user authentication which prevents a user who is not logged in from make changes.  
@@ -17,7 +17,7 @@ This MVC web application allows the user to add Treats and Flavors to the databa
 1. [MySQL Workbench](https://dev.mysql.com/downloads/file/?id=484391) (optional, can be used to view and edit the database outside of the application)
 
 ### Installation
-1. Clone the [PierresTreats.Solution](https://github.com/cass1618/PierresTreats.Solution) Repository
+1. Clone the [PierresTreats.Solution](https://github.com/KevinFunez5/PierresTreats.Solution) Repository
 
     ### Set Up Required Database
     1. To update the database, dotnet-ef must be installed.  Run the following command in terminal, in any directory:
@@ -53,8 +53,8 @@ This application has no known bugs.
 
 [MIT](https://opensource.org/licenses/MIT)
 
-Copywrite (c) Kevinb Funez 2021.
+Copywrite (c) Kevin Funez 2021.
 
 ## Contact Information
 
-[github.com/cass1618](http://github.com/cass1618)
+[github.com/KevinFunez5](http://github.com/KevinFunez5)

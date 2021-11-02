@@ -1,17 +1,14 @@
-@model PierresTreats.Models.Treat
-
-<h2>Add a flavor</h2>
-
-<h4>Add a flavor to @Html.DisplayFor(model => model.TreatName)</h4>
-
-@using (Html.BeginForm())
-{
-  @Html.HiddenFor(model => model.TreatId)
-
-  @Html.Label("Select flavor")
-  @Html.DropDownList("FlavorId")
-
-  <input type="submit" value="Save" />
-}
-
-<p>@Html.ActionLink("Back to list", "Index")</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Factory</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      @RenderBody()
+    </div>
+  </body>
+</html>

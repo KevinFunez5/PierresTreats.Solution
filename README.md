@@ -2,7 +2,7 @@
 By Kevin Funez
 
 ## Description
-This MVC web application allows the user to add Treats and Flavors to the database. There exists a many-to-many relationship between Treats and Flavors. This app also includes user authentication which prevents a user who is not logged in from make changes.  
+This MVC web application allows the user to add Treats and Flavors to the database. There exists a many-to-many relationship between Treats and Flavors. This app also includes user authentication which prevents a user who is not logged in from make changes. Logged in users and add treats and flavors. Users that are not logged in can only view treats and flavors.
 
 ## Technologies Used
 
